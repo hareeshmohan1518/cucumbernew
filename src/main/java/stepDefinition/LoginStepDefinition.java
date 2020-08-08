@@ -16,7 +16,7 @@ public class LoginStepDefinition {
 	 @Given("^I should navigate to Home Page$")
 	    public void user_is_on_home_page() {
 		 System.setProperty("webdriver.chrome.driver","C:\\Users\\Hareesh\\Desktop\\Chromedriver\\chromedriver.exe");
-		 driver = new ChromeDriver();
+		 driver = new ChromeDriver(); //Browser Open
 		 driver.get("http://demowebshop.tricentis.com");
 	    }
 
