@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="D:\\Cucumber BDD\\cucumberBasics\\src\\main\\java\\feature\\Register.feature", 
+		features="D:\\Cucumber BDD\\cucumberBasics\\src\\main\\java\\feature\\RegisterDemoWebShop.feature", 
 		glue="stepDefinition"
 		//dryRun = true,
 		//dryRun= false,
